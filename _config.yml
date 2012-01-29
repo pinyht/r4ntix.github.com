@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title/
 
 exclude: [".rbenv-version", "README.md", "Rakefile"]
 auto: true
@@ -9,13 +9,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Memory Leak
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : r.4ntix Shawn
+  email : r.4ntix@gmail.com
+  github : r4ntix
+  twitter : r4ntix
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +24,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://durara.net
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -66,13 +65,13 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : durara
     livefyre :
-      site_id : 123
+      site_id :
     intensedebate :
-      account : 123abc
+      account :
     facebook :
-      apikey : 123
+      apikey :
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -81,7 +80,7 @@ JB :
   analytics :
     provider : google
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-654007-9'
     getclicky :
       site_id : 
 
@@ -103,4 +102,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
